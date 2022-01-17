@@ -26,7 +26,7 @@ public class Task2 {
     //abstract class Car {   //Класс должен реализовать классы Moveable и Stopable если реализует метожды start() stop()
 
     abstract class Car implements Rideable{
-        public Engine engine;
+        private Engine engine;
         private String color;
         private String name;
 
